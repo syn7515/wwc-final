@@ -19,7 +19,7 @@ document.querySelector("#mode").addEventListener("click", function(){
         console.log("Changed to Light Mode");
         document.querySelector("#mode").innerHTML = "Dark Mode";
         document.querySelector("#mode").style.color = "black";  
-        main.style.backgroundImage = "url(../images/28.gradients.ray.png)";
+        main.style.backgroundImage = "url(images/28.gradients.ray.png)";
         main.style.backgroundColor = "white";
         if(link) link.style.color="blue";
         for (let i =0; i < texts.length; i++){

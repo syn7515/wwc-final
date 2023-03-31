@@ -18,7 +18,8 @@ document.querySelector("#mode").addEventListener("click", function(){
     if (document.querySelector("#mode").innerHTML === "Light Mode"){
         console.log("Changed to Light Mode");
         document.querySelector("#mode").innerHTML = "Dark Mode";
-        document.querySelector("#mode").style.color = "black";  
+        document.querySelector("#mode").style.color = "black";
+        document.querySelector("#mode").style.backgroundColor = "transparent";  
         main.style.backgroundImage = "url(images/28.gradients.ray.png)";
         main.style.backgroundColor = "white";
         if(link) link.style.color="blue";
